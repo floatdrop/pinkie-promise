@@ -4,6 +4,8 @@
 >
 > Ponyfill: A polyfill that doesn't overwrite the native method
 
+Module exports global Promise object (if available) or [`pinkie`](http://github.com/floatdrop/pinkie) Promise polyfill.
+
 ## Install
 
 ```
@@ -18,10 +20,6 @@ var Promise = require('pinkie-promise');
 new Promise(function (resolve) { resolve('unicorns'); });
 //=> Promise { 'unicorns' }
 ```
-
-## API
-
-Module exports global Promise object or [`pinkie`](http://github.com/floatdrop/pinkie) polyfill.
 
 ## License
 
