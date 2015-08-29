@@ -19,6 +19,10 @@ new Promise(function (resolve) { resolve('unicorns'); });
 //=> Promise { 'unicorns' }
 ```
 
+## Related
+
+- [pify](https://github.com/sindresorhus/pify) - Promisify a callback-style function
+
 ## License
 
 MIT © [Vsevolod Strukchinsky](http://github.com/floatdrop)
