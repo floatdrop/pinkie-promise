@@ -1,7 +1,7 @@
 {
   "name": "pinkie-promise",
   "version": "1.0.0",
-  "description": "ES6 Promise ponyfill",
+  "description": "ES2015 Promise ponyfill",
   "license": "MIT",
   "repository": "floatdrop/pinkie-promise",
   "author": {
@@ -20,6 +20,8 @@
   ],
   "keywords": [
     "promise",
+    "promises",
+    "es2015",
     "es6",
     "polyfill",
     "ponyfill"
