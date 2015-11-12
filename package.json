@@ -27,7 +27,7 @@
     "ponyfill"
   ],
   "dependencies": {
-    "pinkie": "^1.0.0"
+    "pinkie": "^2.0.0"
   },
   "devDependencies": {
     "mocha": "*"
