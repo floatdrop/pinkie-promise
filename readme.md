@@ -1,8 +1,8 @@
 # pinkie-promise [![Build Status](https://travis-ci.org/floatdrop/pinkie-promise.svg?branch=master)](https://travis-ci.org/floatdrop/pinkie-promise)
 
-> [ES2015 Promise](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-promise-objects) [ponyfill](https://ponyfill.com)
+> ES2015 [`Promise`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise) [ponyfill](https://ponyfill.com)
 
-Module exports global Promise object (if available) or [`pinkie`](http://github.com/floatdrop/pinkie) Promise polyfill.
+Module exports global Promise object (if available) or [`pinkie`](https://github.com/floatdrop/pinkie) Promise polyfill.
 
 ## Install
 
@@ -25,4 +25,4 @@ new Promise(function (resolve) { resolve('unicorns'); });
 
 ## License
 
-MIT © [Vsevolod Strukchinsky](http://github.com/floatdrop)
+MIT © [Vsevolod Strukchinsky](https://github.com/floatdrop)
